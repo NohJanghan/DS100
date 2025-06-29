@@ -2,4 +2,10 @@
 **/.DS_Store
 
 .venv/
-**/*.zip
+**/*2025*.zip
+**/.OTTER_LOG
+**/.ipynb_checkpoints
+
+hw/hw02A/data/
+hw/**/*.pdf
+lab/**/*.pdf
