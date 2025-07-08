@@ -20,5 +20,5 @@ If your environment doesn't have a default python env containing `jupyter nbconv
 If you use `uv` or `venv`, you can use the following snippet for your config.
 ```
 [filter "strip-notebook-output"]
-	clean = "\"[YOUR PROJECT]/.venv/bin/jupyter-nbconvert\" --ClearOutputPreprocessor.enabled=True --ClearMetadataPreprocessor.enabled=True --to=notebook --stdin --stdout --log-level=ERROR"
+	clean = "\"[YOUR PROJECT]/.venv/bin/jupyter-nbconvert\" --ClearOutputPreprocessor.enabled=True --ClearMetadataPreprocessor.enabled=False --to=notebook --stdin --stdout --log-level=ERROR"
 ```
