@@ -11,3 +11,4 @@ hw/**/*.pdf
 lab/**/*.pdf
 **/__pycache__/
 lab/lab03/data/
+hw/hw04/data/
