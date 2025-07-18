@@ -120,3 +120,11 @@ def rmse(predicted, actual):
       A float, the RMSE value.
     """
     return np.sqrt(np.mean((actual - predicted)**2))
+
+
+def mape_interval(df, start, end):
+    subset_df = df[(df['True Log Sale Price'] >= start) & (df['True Log Sale Price'] <= end)]
+    actual = subset_df['True Log Sale Price']
+    predicted = subset_df['Predicted Log Sale Price']
+    percent_error = np.abs((actual - predicted) / actual)
+    return np.mean(percent_error)
