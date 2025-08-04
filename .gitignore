@@ -9,6 +9,7 @@
 hw/hw02A/data/
 hw/**/*.pdf
 lab/**/*.pdf
+proj/**/*.pdf
 **/__pycache__/
 lab/lab03/data/
 hw/hw04/data/
